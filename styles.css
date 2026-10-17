@@ -37,3 +37,12 @@
 }
 @media(max-width:360px){.hero,.section,.systems,.play-section{padding-inline:18px}.creator-link{font-size:10px;padding:7px}.brand{font-size:11px}}
 @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}}
+
+.gallery-description{max-width:600px;color:var(--muted);line-height:1.8;margin:20px 0 0}
+.implode-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 24px}
+.implode-frame{margin:0;min-width:0}.gallery-lead{grid-column:1/-1}
+.implode-frame a{display:block;background:var(--panel);border:1px solid var(--line);transition:border-color .2s}
+.implode-frame a:hover{border-color:var(--cyan)}
+.implode-frame img{width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;display:block}
+.implode-frame figcaption{margin-top:12px;color:var(--muted);font-size:12px;line-height:1.6}
+@media(max-width:800px){.implode-gallery{grid-template-columns:minmax(0,1fr);gap:28px}.gallery-lead{grid-column:auto}}
