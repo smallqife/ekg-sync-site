@@ -1,2 +1,4 @@
 acl-recovery/
 .DS_Store
+.qa-tools/
+.qa-output/
